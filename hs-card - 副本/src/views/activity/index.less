@@ -1,0 +1,228 @@
+/** @format */
+.activityPage,
+.cardPage {
+  background-color: #fff;
+  padding: 20px;
+  min-width: 900px;
+  overflow-x: auto;
+}
+.activityPage .flex {
+  display: flex;
+  align-items: center;
+}
+.activityPage .item {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.activityPage .avatar-uploader {
+  width: 120px;
+}
+.activityPage .preview {
+  padding: 40px 20px 70px;
+  width: 300px;
+}
+.cardPage .preview {
+  padding: 50px 24px 70px;
+  width: 360px;
+}
+.activityPage .preview,
+.cardPage .preview {
+  background-image: url('../../assets/image/iponebg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  // flex-basis: 10% !important;
+}
+
+.cardPage .flex {
+  display: flex;
+  align-items: center;
+}
+.cardPage .item {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.cardPage .avatar-uploader {
+  width: 120px;
+}
+
+.btnBox {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  text-align: center;
+}
+.id-img-upload .ant-upload.ant-upload-select-picture-card {
+  width: 168px !important;
+}
+.id-img-upload img {
+  width: 150px !important;
+  height: 94px !important;
+}
+.theme-img-upload .ant-upload.ant-upload-select-picture-card {
+  width: 168px !important;
+}
+.theme-img-upload img {
+  width: 150px !important;
+  height: 94px !important;
+}
+
+/** @format */
+
+.main-padding {
+  padding: 10px 15px 0px;
+}
+.cdWrap {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+
+  &.hb {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+  }
+
+  .cd-body1 {
+    background: linear-gradient(#fa788c, rgb(255, 70, 104));
+  }
+
+  .cd-body {
+    background: url('../../assets/image/bg11.png') repeat-x 0 bottom;
+    background-size: 375px;
+    padding: 17px 17px 25px;
+    position: relative;
+    color: #fff;
+    line-height: 1.6;
+    border-radius: 5px 5px 0 0;
+
+    > .btn1 {
+      position: absolute;
+      bottom: 20px;
+      right: 10px;
+    }
+
+    .tag1 {
+      background: rgb(250, 154, 96);
+      height: 23px;
+      border-radius: 23px;
+      line-height: 23px;
+      padding: 0 10px;
+      font-size: 13px;
+      color: #fff;
+      margin-right: 5px;
+      white-space: nowrap;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+
+  .cd-body-title {
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    line-height: '20px';
+  }
+
+  .cd-footer {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    color: #666;
+
+    > .flex {
+      padding: 15px;
+    }
+  }
+
+  .attach {
+    border-top: 1px dotted #ddd;
+    padding: 15px;
+
+    > .flex {
+      align-items: flex-start;
+    }
+
+    > div {
+      padding: 4px 0;
+    }
+  }
+
+  .cd-flag {
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    top: 15px;
+    right: -45px;
+    background: rgb(13, 168, 38);
+    color: #fff;
+    transform: rotate(45deg);
+  }
+}
+
+.bar_footer {
+  background: #fff;
+  display: flex;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.06);
+
+  &-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-item:first-child {
+    border-right: 1px solid #ddd;
+  }
+}
+
+.nothing-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+
+  &-icon {
+    width: 145px;
+    height: 125px;
+    background: url(../../assets/image/nothing.png) no-repeat;
+  }
+
+  &-text {
+    margin-top: 10px;
+    color: #999999;
+  }
+}
+.oldRow {
+  min-height: 730px;
+}
+.ant-checkbox-group.all_select_checkbox_box {
+	display: block;
+	label {
+		display: block;
+		padding-left: 30px;
+		margin-top: 10px;
+	}
+}
+.shop_address_box {
+	display: flex;
+	.shop_address_item {
+		flex-direction: initial;
+	}
+}
+

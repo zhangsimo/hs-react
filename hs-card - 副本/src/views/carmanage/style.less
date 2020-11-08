@@ -1,0 +1,177 @@
+/** @format */
+
+.block {
+  background: #fff;
+  margin-top: 0px;
+  .block_title {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f0f2f5;
+    border-bottom: 1px solid #e8e8e8;
+    // margin-bottom: 30px;
+    span {
+      border-left: 6px solid #7883ce;
+      padding-left: 16px;
+      font-size: 18px;
+      color: #304156;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  .block_content {
+    padding: 15px;
+    .carInftit{
+      font-size: 18px;
+      color: #2F4155;
+      margin-bottom: 10px;
+      padding-bottom: 15px;
+    }
+    .carInftitbm{
+      border-bottom: 1px solid #ddd;
+    }
+    
+  }
+  .carbtnrg{
+    position: absolute;
+    right: 60px;
+    .ant-btn-primary{
+      margin-right: 15px;
+    }
+  }
+  .bortop{
+    border-top: 1px solid #eeeeee;
+    padding-top: 18px;
+  }
+  .carh5{
+    font-size: 18px;
+    color: #408FFB;
+  }
+  .pic{
+    width: 250px;
+    height: 150px;
+    margin-right: 12px;
+    border-radius: 6px;
+  }
+  .carIconbg{
+    width: 32px;
+    height: 32px;
+    right: 0;
+    background: url(../../assets/image/carhost.png) no-repeat center 2px;
+  }
+  .carIconbgme{
+    width: 32px;
+    height: 32px;
+    right: 0;
+    background: url(../../assets/image/carme.png) no-repeat center 2px;
+  }
+  .carflex{
+    display: flex;
+    font-size: 14px;
+    color: #304156;
+    span{
+      color: #408FFB;
+    }
+    span.me{
+      color: #E62919;
+      margin-left: 30px;
+      cursor: pointer;
+    }
+  }
+}
+.addcar{
+  .ant-space-align-center{
+    display: block;
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .id-img-upload {
+    & .ant-upload {
+      width: 250px;
+      height: 150px;
+    }
+  }
+  .storepoint{
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 10px;
+  }
+  .ant-input[disabled], .ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector,.ant-input-affix-wrapper-disabled {
+    color: #333;
+    background: #fff !important;
+    cursor: auto;
+    opacity: 1;
+    border: none;
+  }
+  .carModel[disabled], .ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    background: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 1;
+  }
+}
+
+.carDetail {
+  .id-img-upload .ant-upload.ant-upload-select-picture-card {
+      width: 220px !important;
+      height: 130px;
+    }
+}
+#step2{
+  .id-img-upload .ant-upload.ant-upload-select-picture-card {
+      width: 220px !important;
+      height: 130px;
+    }
+}
+
+.changcarplate{
+  .block_content{
+    min-height: 85vh;
+  }
+  .ant-steps-dot .ant-steps-item .ant-steps-icon-dot{
+    margin-top: -12px;
+    width: 30px;
+    height: 30px;
+  }
+  .ant-steps-dot .ant-steps-item:first-child .ant-steps-icon-dot{ 
+    background: url(../../assets/image/set1.png) no-repeat center 2px !important;
+  }
+ .ant-steps-item:nth-child(2) .ant-steps-icon-dot{ 
+    background: url(../../assets/image/setno2.png) no-repeat center 2px !important;
+  }
+  .ant-steps-item-active:nth-child(2) .ant-steps-icon-dot{
+    background: url(../../assets/image/set2.png) no-repeat center 2px !important;
+  } 
+  .ant-steps-item:nth-child(3) .ant-steps-icon-dot{ 
+    background: url(../../assets/image/setno3.png) no-repeat center 2px !important;
+  }
+  .ant-steps-item-active:nth-child(3) .ant-steps-icon-dot{
+    background: url(../../assets/image/set3.png) no-repeat center 2px !important;
+  }  
+  .step2:nth-child(2) .ant-steps-icon-dot{
+    background: url(../../assets/image/set2.png) no-repeat center 2px !important;
+  }
+  .ant-steps-dot .ant-steps-item-tail::after, .ant-steps-dot.ant-steps-small .ant-steps-item-tail::after{
+    height: 1px;
+  }
+  .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after{
+    background-color: #ccc;
+  }
+  .ant-steps-item-title{
+    font-size: 14px;
+  }
+  .ant-input[disabled], .ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    color: #333;
+    background-color: #fff;
+    cursor: auto;
+    opacity: 1;
+    border: none;
+  }
+} 
+.block_selectCard{
+  .driverimages{
+    .ant-form-item-explain{
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.project_tabs {
+	min-width: 1000px;
+}
+.project_pane {
+	display: flex;
+}
+.project_class_box {
+	width: 30%;
+	min-width: 498px;
+	float: left;
+	background-color: #FFF;
+	padding: 24px;
+	box-sizing: border-box;
+}
+.Project_allocation_box {
+	width: 70%;
+	min-width: 500px;
+	float: right;
+	background-color: #FFF;
+	padding: 24px;
+	box-sizing: border-box;
+	margin-left: 8px;
+}
+.currency_box {background-color: #FFF;padding: 24px;}
+.currency_intro {font-size: 18px;color: #424E66;padding-bottom: 24px;}
+
+.operate_change {display: inline-flex;align-items: center;}
+.allocation_button {
+	margin: 56px 0 24px 0;
+}
+.batch_config_box {
+	display: flex;
+	table {
+		width: 100%;
+	}
+	th,td {
+		text-align: center;
+	}
+	.commission_box > div, .number_box > div{
+		display: flex;
+		margin: 7px 0;
+		justify-content: center;
+	}
+	.commission_box > div:empty {
+		display: none;
+		margin: 0;
+	}
+	.number_box > div:empty {
+		display: none;
+		margin: 0;
+	}
+	.number_box {
+		padding-left: 20px;
+	}
+	.number_box .ant-input {width: 100px;margin-right: 4px;}
+	.commission_box > div > span {width: 60px;text-align: right;margin-right: 8px;}
+}
+
+.config_switch_box {
+	display: flex;
+	margin: 30px 0 20px;
+	.switch_box {
+		> span {margin-right: 8px;}
+		label ~ label {margin-left: 40px;}
+	}
+	.operate_log {color: #408FFB;cursor: pointer;margin-left: 40px;}
+}

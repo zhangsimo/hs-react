@@ -1,0 +1,6 @@
+{
+    "plugins": [
+        "jsx-control-statements",
+        "transform-react-inline-elements"
+    ]
+}

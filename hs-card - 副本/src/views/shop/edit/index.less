@@ -1,0 +1,81 @@
+/** @format */
+
+.area-title {
+  cursor: pointer;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.area {
+  background: #fff;
+  margin-bottom: 15px;
+  &-header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 10px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 4px;
+      height: 18px;
+      left: 0;
+      top: 10px;
+      background: #06c;
+    }
+  }
+  &-main {
+    padding: 15px;
+  }
+}
+.submit {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+div.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-tail::after {
+  background-color: #1890ff6e;
+}
+
+div.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-tail::after {
+  background-color: #aaa;
+}
+
+.area-main {
+  .orgCodesShop {
+    // 用于解决适配门店为空的提示
+    .ant-form-item-explain {
+      display: none;
+    }
+  }
+}
+.addProduct {
+  .limitNumflex {
+    display: flex;
+    .limitNum {
+      .ant-radio {
+        top: 5px;
+      }
+    }
+  }
+  .ant-tableMg {
+    margin: 20px 0;
+    .ant-table-theadbg > tr > th {
+      background: #eff4f8 !important;
+    }
+  }
+  // .islimitNum{
+  //   .ant-col-1{
+  //     > label{
+  //       // display: none;
+  //     }
+  //   }
+  // }
+}

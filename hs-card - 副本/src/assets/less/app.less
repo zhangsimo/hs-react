@@ -1,0 +1,88 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+}
+.ant-table-pagination.ant-pagination {
+  margin: 16px;
+}
+
+.ant-tree li span.ant-tree-switcher:empty,
+.ant-tree li span.ant-tree-iconEle:empty {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+
+  &_between {
+    justify-content: space-between;
+  }
+  &-item {
+    flex: 1;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.back-btn {
+  height: 52px;
+  line-height: 52px;
+  padding: 0 10px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+  cursor: pointer;
+}
+.p20 {
+  padding: 20px;
+}
+
+.loopFontSize(@i) when (@i <=60) {
+  .fs-@{i} {
+    font-size: @i * 1px;
+  }
+  .loopFontSize(@i + 2);
+}
+.loopFontSize(10);
+
+.loopBox(@i) when (@i <=15) {
+  @size: @i;
+  @sizePx: @size*1px;
+  .m-@{size} {
+    margin: @sizePx;
+  }
+  .mt-@{size} {
+    margin-top: @sizePx;
+  }
+  .ml-@{size} {
+    margin-left: @sizePx;
+  }
+  .mr-@{size} {
+    margin-right: @sizePx;
+  }
+  .mb-@{size} {
+    margin-bottom: @sizePx;
+  }
+  .p-@{size} {
+    padding: @sizePx;
+  }
+  .pt-@{size} {
+    padding-top: @sizePx;
+  }
+  .pl-@{size} {
+    padding-left: @sizePx;
+  }
+  .pr-@{size} {
+    padding-right: @sizePx;
+  }
+  .pb-@{size} {
+    padding-bottom: @sizePx;
+  }
+  .loopBox(@i+1);
+}
+.loopBox(5);
